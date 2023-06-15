@@ -10,8 +10,8 @@ import (
 const LineBreak = "\n"
 
 func main() {
-	username := "john"
-	password := "s3cur3p@ssw0rd"
+	username := "my-username"
+	password := "my-password"
 
 	// Generate key pair
 	privateKey, publicKey, err := generateKeyPair()
